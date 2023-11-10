@@ -1,6 +1,6 @@
 <!---
 Please carefully read the contribution docs before creating a pull request
- 👉 https://github.com/vinejs/.github/blob/main/docs/CONTRIBUTING.md
+ 👉 https://github.com/edge-js/.github/blob/main/docs/CONTRIBUTING.md
 -->
 
 ### 🔗 Linked issue

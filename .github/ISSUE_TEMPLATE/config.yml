@@ -6,3 +6,6 @@ contact_links:
   - name: Feature Request
     url: https://github.com/edge-js/edge/issues/new?title=Discussion%20for%20a%20new%20feature%20-%20%3CYOUR%20FEATURE%20NAME%3E
     about: Suggest any ideas you have by creating a new issue
+  - name: Documentation issue
+    url: https://github.com/edge-js/edgejs.dev/issues/new
+    about: For documentation issues, suggest changes on our documentation repository.

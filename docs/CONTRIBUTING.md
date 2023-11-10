@@ -26,6 +26,8 @@ If you're reporting a bug, include as much information as possible with the code
 ## Having a discussion
 You often want to discuss a topic or maybe share some ideas. In that case, create an issue and prefix it with the **Idea** keyword. For example: `Idea - Should we add support for X`.
 
+
+
 ## Creating pull requests
 It is never a good experience to have your pull request declined after investing a lot of time and effort in writing the code. Therefore, we highly recommend you to [kick off a discussion](https://github.com/edge-js/edge/issues/new?title=Discussion%20for%20a%20new%20feature%20-%20%3CYOUR%20FEATURE%20NAME%3E) before starting any new work on your side.
 
@@ -67,7 +69,7 @@ Following is the list of tools in use.
 | TS Node | We use [ts-node](https://typestrong.org/ts-node/) to run tests or scripts without compiling TypeScript. The main goal of ts-node is to have a faster feedback loop during development |
 | SWC | [SWC](https://swc.rs/) is a Rust based TypeScript compiler. TS Node ships with first-class support for using SWC over the TypeScript official compiler. The main reason for using SWC is the speed gain. |
 | NP | We use [np](https://github.com/sindresorhus/np) to publish our packages on npm. Np does all the heavy lifting of creating a release and publishes it on npm and Github. The np config is defined within the `package.json` file. |
-| ESLint | ESLint helps us enforce a consistent coding style across all the repos with multiple contributors. All our ESLint rules are published under the [eslint-plugin-adonis](https://github.com/adonisjs-community/eslint-plugin-adonis) package. |
+| ESLint | ESLint helps us enforce a consistent coding style across all the repos with multiple contributors. All our ESLint rules are published under the [@adonisjs/eslint-config](https://github.com/adonisjs/tooling-config/tree/main/packages/eslint-config) preset. |
 | Prettier | We use prettier to format the codebase for consistent visual output. If you are confused about why we are using ESLint and Prettier both, then please read [Prettier vs. Linters](https://prettier.io/docs/en/comparison.html) doc on the Prettier website. |
 | EditorConfig | The `.editorconfig` file in the root of every project configures your Code editor to use a set of rules for indentation and whitespace management. Again, Prettier is used for post formatting your code, and Editorconfig is used to configure the editor in advance. |
 | Conventional Changelog | All of the commits across all the repos uses [commitlint](https://github.com/conventional-changelog/commitlint/#what-is-commitlint) to enforce consistent commit messages. |
