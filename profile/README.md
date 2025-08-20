@@ -17,5 +17,6 @@ If you swim in the `<your-frontend-framework>` ecosystem, you do not need Edge. 
 
 - [Documentation](https://edgejs.dev/docs/introduction)
 - [Iconify integration plugin](https://edgejs.dev/docs/edge-iconify)
+- [Markdown Rendering with components](https://edgejs.dev/docs/edge-markdown)
 - [VSCode extension](https://marketplace.visualstudio.com/items?itemName=AdonisJS.vscode-edge)
 - [Sublime Text extension](https://github.com/edge-js/edge-sublime)
